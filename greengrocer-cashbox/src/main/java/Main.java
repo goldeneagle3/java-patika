@@ -8,6 +8,7 @@ public class Main {
 
         Scanner impl = new Scanner(System.in);
 
+
         System.out.println("How many kilo pear : ");
         amountPear = impl.nextInt();
         System.out.println("How many kilo apple : ");
@@ -29,5 +30,7 @@ public class Main {
 
 
         System.out.println("Total price is " + totalPrice);
+        System.out.println(Math.pow(4,5));
+
     }
 }
